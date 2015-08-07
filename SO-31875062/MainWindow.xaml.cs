@@ -23,10 +23,10 @@ namespace SO_31875062
         public MainWindow()
         {
             InitializeComponent();
-            var text = LargeRun.Text;
-            var firstNo = int.Parse(text.Substring(0, 1));
-            var secondNo = int.Parse(text.Substring(1, 1));
-            PowerRun.FontSize = Math.Pow(firstNo, secondNo);
+            //var text = LargeRun.Text;
+            //var firstNo = int.Parse(text.Substring(0, 1));
+            //var secondNo = int.Parse(text.Substring(1, 1));
+            //PowerRun.FontSize = Math.Pow(firstNo, secondNo);
         }
     }
 }

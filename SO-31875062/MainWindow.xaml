@@ -16,7 +16,7 @@
                     <Run FontSize="16" x:Name="LargeRun">
                         34
                     </Run>
-                    <Run x:Name="PowerRun">
+                    <Run x:Name="PowerRun" BaselineAlignment="Superscript" FontSize="8">
                         4
                     </Run>
                 </Paragraph>
