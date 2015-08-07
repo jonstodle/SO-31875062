@@ -1,0 +1,26 @@
+﻿<Window x:Class="SO_31875062.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SO_31875062"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <RichTextBox>
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontSize="8" x:Name="SmallRun">
+                        1234
+                    </Run>
+                    <Run FontSize="16" x:Name="LargeRun">
+                        34
+                    </Run>
+                    <Run x:Name="PowerRun">
+                        4
+                    </Run>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</Window>
